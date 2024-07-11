@@ -198,7 +198,7 @@ nav {
 
 /* Category Section Style */
 
-.category, .easy-section{
+.category, .easy-section, .testimonial{
     padding: 10px 5%;
 }
 .category-cards{
@@ -438,6 +438,61 @@ bottom: 30%;
     top: -80px;
     z-index: -1;
  }
+
+ /* Testimonial Styles */
+
+ .testimonial{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    position: relative;
+   
+ }
+
+ .testimonial-right{
+    position: relative;
+    
+ }
+ .testimonial-text{
+    border-radius: 10px;
+background:  #FFF;
+box-shadow: 0px 100px 80px 0px rgba(0, 0, 0, 0.02), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00);
+
+padding: 28px 68px 34px 34px;
+
+
+ }
+
+ .testimonial-text p{
+     color:  #5E6282;
+    
+ }
+
+ .testimonial-text-2{
+    padding: 28px 68px 34px 34px;
+    z-index: -1;
+    position: absolute;
+    border-radius: 10px;
+    width: 600px;
+    left: 100px;
+    
+ }
+
+ .chevron{
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    position: absolute;
+    right: 0;
+    top: 30%;
+ }
+
+ .person{
+    position: absolute;
+    left: -5%;
+    top: -7%;
+ }
 /* Small Devices (320px to 768px) */
 @media (min-width: 320px) and (max-width: 768px) {
     .hero {
@@ -524,14 +579,30 @@ bottom: 30%;
 
     .easy-section{
         flex-direction: column;
+        padding-bottom: 80px;
     }
     .ongoing-card{
         bottom: -80px;
         left: 0;
+        
     }
     .elips{
         top: 700;
         width: 300px;
+    }
+    .testimonial{
+        flex-direction: column;
+        gap: 50px;
+       
+       
+    }
+
+    .testimonial-text-2{
+        width: 100%;
+        left: 0;
+    }
+    .person{
+        top: -10%;
     }
 }
 
@@ -584,6 +655,9 @@ bottom: 30%;
     .elips{
         top: 300px;
         left: 0;
+    }
+    .testimonial{
+        justify-content: space-between;
     }
 }
 
