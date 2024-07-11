@@ -198,7 +198,7 @@ nav {
 
 /* Category Section Style */
 
-.category{
+.category, .easy-section{
     padding: 10px 5%;
 }
 .category-cards{
@@ -326,6 +326,109 @@ nav {
     align-items: center;
     gap: 10px;
     margin-top: 10px;
+  }
+
+
+  /* Easy and Fast Section */
+
+  .easy-section{
+    display: flex;
+    gap: 80px;
+    overflow: hidden;
+  }
+
+ 
+  .services{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 30px;
+  }
+  .icon-section{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .greece-right{
+    position: relative;
+    width: 60%;
+    margin-top: 60px;
+  }
+  .greece-card{
+    width: 370px;
+    height: 400px;
+    border-radius: 26px;
+    background: #fff;
+    box-shadow: 0px 100px 80px 0px rgba(0, 0, 0, 0.02), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00);
+    padding: 20px 24px 31px 25px;
+  }
+
+  .greece-content{
+   margin-top:26px ;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+
+  }
+
+  .greece-content h5, .ongoing-content h5{
+    color: #080809;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    
+  }
+
+  .greece-icons span{
+        width: 36px;
+        height: 36px;
+        border-radius: 100%;
+        background-color: #f5f5f5;
+        padding: 12px 11px 10px 11px;
+        color: #84829a;
+  }
+
+  .greece-end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .greece-building{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .ongoing-card{
+    border-radius: 18px;
+background:  #FFF;
+box-shadow: 0px 100px 80px 0px rgba(0, 0, 0, 0.02), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00);
+padding: 15px 75px 22px 17px;
+
+width: 263px;
+height: 129px;
+
+position: absolute;
+right: -13%;
+bottom: 30%;
+  }
+
+  .ongoing-content{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+  }
+  .ongoing-content img{
+    border-radius: 100%;
+  }
+
+  .ongoing-content p{
+    color: #080809;
+  }
+  .ongoing-content span{
+    color: #8A79DF;
   }
 /* Small Devices (320px to 768px) */
 @media (min-width: 320px) and (max-width: 768px) {
