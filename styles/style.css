@@ -198,7 +198,7 @@ nav {
 
 /* Category Section Style */
 
-.category, .easy-section, .testimonial{
+.category, .easy-section, .testimonial, .company{
     padding: 10px 5%;
 }
 .category-cards{
@@ -493,6 +493,45 @@ padding: 28px 68px 34px 34px;
     left: -5%;
     top: -7%;
  }
+
+
+ /* Company Section Styles */
+
+ .company{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+   
+    padding-top: 100px;
+    text-align: center;
+    
+ }
+
+ .axon{
+
+ }
+
+ .expedia img{
+    width: 100px;
+ }
+ .quantus{
+  
+  
+  
+   
+   
+ }
+ .quantus img{
+    padding: 30px 10px;
+    
+    
+ }
+ .alitalia {
+   
+   
+   padding-top: 35px;
+ }
+ 
 /* Small Devices (320px to 768px) */
 @media (min-width: 320px) and (max-width: 768px) {
     .hero {
@@ -604,6 +643,11 @@ padding: 28px 68px 34px 34px;
     .person{
         top: -10%;
     }
+
+    .company{
+        grid-template-columns:  1fr;
+        gap: 10px;
+    }
 }
 
 /* Medium Devices (769px to 992px) */
@@ -659,6 +703,11 @@ padding: 28px 68px 34px 34px;
     .testimonial{
         justify-content: space-between;
     }
+    .company{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
 }
 
 /* Large Devices (993px to 1400px) */
@@ -677,6 +726,10 @@ padding: 28px 68px 34px 34px;
     
     .content h4 {
         font-size: 18px;
+    }
+    .company{
+       
+        gap: 30px;
     }
 }
 
