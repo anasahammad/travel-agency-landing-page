@@ -479,14 +479,7 @@ padding: 28px 68px 34px 34px;
     
  }
 
- .chevron{
-    display: flex;
-    flex-direction: column;
-    gap: 90px;
-    position: absolute;
-    right: 0;
-    top: 30%;
- }
+ 
 
  .person{
     position: absolute;
@@ -877,7 +870,7 @@ padding: 28px 68px 34px 34px;
     }
 
     .footer-content{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
 }
