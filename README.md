@@ -4,7 +4,7 @@ Welcome to the Travel Agency Landing Page project! This project is designed to c
 
 ## Live Demo
 
-Check out the live demo of the project ([https://your-live-link.com](https://travel-agency-by-anas.netlify.app/)).
+Check out the live demo of the project ((https://travel-agency-by-anas.netlify.app/)).
 
 
 
@@ -31,4 +31,4 @@ To set up this project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/travel-agency-landing-page.git
+   git clone (https://github.com/anasahammad/travel-agency-landing-page/tree/main)
