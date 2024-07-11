@@ -198,7 +198,7 @@ nav {
 
 /* Category Section Style */
 
-.category, .easy-section, .testimonial, .company{
+.category, .easy-section, .testimonial, .company, .subscribe-container{
     padding: 10px 5%;
 }
 .category-cards{
@@ -531,6 +531,61 @@ padding: 28px 68px 34px 34px;
    
    padding-top: 35px;
  }
+
+
+ 
+/* subscribe newsletter style */
+
+.subscribe-content {
+    border-radius:129px 20px  20px 20px ;
+    opacity: 0.8;
+    background:  #DFD7F9;
+    text-align: center;
+    padding: 79px 156px 78px 155px;
+    position: relative;
+}
+
+.subscribe-container h2 {
+    color: #5E6282;
+    font-size: 33px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    line-height: 54px;
+    font-family: "Poppins", sans-serif;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    outline: none;
+    margin-right: 10px;
+}
+
+.subscribe-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background:  linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.telegram{
+    position: absolute;
+    top: -6%;
+    right: -3%;
+}
+
  
 /* Small Devices (320px to 768px) */
 @media (min-width: 320px) and (max-width: 768px) {
@@ -648,7 +703,31 @@ padding: 28px 68px 34px 34px;
         grid-template-columns:  1fr;
         gap: 10px;
     }
+
+    .subscribe-content {
+        padding: 18px;
+    }
+
+    .subscribe-container h2 {
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    .subscribe-form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .subscribe-form input, .subscribe-form button {
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    .subscribe-form button {
+        border-radius: 5px;
+    }
 }
+
 
 /* Medium Devices (769px to 992px) */
 @media (min-width: 768px) and (max-width: 992px) {
@@ -731,6 +810,7 @@ padding: 28px 68px 34px 34px;
        
         gap: 30px;
     }
+    
 }
 
 /* Extra Large Devices (1401px and above) */
